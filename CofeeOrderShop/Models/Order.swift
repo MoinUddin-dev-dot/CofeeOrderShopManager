@@ -17,7 +17,7 @@ struct Order: Codable, Identifiable, Hashable {
     
     var id: Int?
     var name: String
-    var cofeeName: String
+    var coffeeName: String
     var total : Double
     var size: CofeeSize
     

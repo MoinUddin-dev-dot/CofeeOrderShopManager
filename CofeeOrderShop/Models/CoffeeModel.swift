@@ -12,7 +12,7 @@ class CoffeeModel: ObservableObject {
     let webService: WebService
     @Published private(set) var orders: [Order] = []
     
-    init(webService: WebService, orders: [Order]) {
+    init(webService: WebService) {
         self.webService = webService
     }
     
