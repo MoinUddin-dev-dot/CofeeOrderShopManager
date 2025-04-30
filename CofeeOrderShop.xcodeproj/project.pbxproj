@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		6BA54E1A2DC12D5800934426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BA120DE2DBA078500BF500C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BA120E52DBA078500BF500C;
+			remoteInfo = CofeeOrderShop;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		6BA120E62DBA078500BF500C /* CofeeOrderShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CofeeOrderShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA54E142DC12D5800934426 /* CofeeOrderShopE2ETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CofeeOrderShopE2ETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = CofeeOrderShop;
 			sourceTree = "<group>";
 		};
+		6BA54E152DC12D5800934426 /* CofeeOrderShopE2ETests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CofeeOrderShopE2ETests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6BA120E32DBA078500BF500C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA54E112DC12D5800934426 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				6BA120E82DBA078500BF500C /* CofeeOrderShop */,
+				6BA54E152DC12D5800934426 /* CofeeOrderShopE2ETests */,
 				6BA120E72DBA078500BF500C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				6BA120E62DBA078500BF500C /* CofeeOrderShop.app */,
+				6BA54E142DC12D5800934426 /* CofeeOrderShopE2ETests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,29 @@
 			productReference = 6BA120E62DBA078500BF500C /* CofeeOrderShop.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6BA54E132DC12D5800934426 /* CofeeOrderShopE2ETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA54E1E2DC12D5800934426 /* Build configuration list for PBXNativeTarget "CofeeOrderShopE2ETests" */;
+			buildPhases = (
+				6BA54E102DC12D5800934426 /* Sources */,
+				6BA54E112DC12D5800934426 /* Frameworks */,
+				6BA54E122DC12D5800934426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BA54E1B2DC12D5800934426 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6BA54E152DC12D5800934426 /* CofeeOrderShopE2ETests */,
+			);
+			name = CofeeOrderShopE2ETests;
+			packageProductDependencies = (
+			);
+			productName = CofeeOrderShopE2ETests;
+			productReference = 6BA54E142DC12D5800934426 /* CofeeOrderShopE2ETests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +130,10 @@
 				TargetAttributes = {
 					6BA120E52DBA078500BF500C = {
 						CreatedOnToolsVersion = 16.3;
+					};
+					6BA54E132DC12D5800934426 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 6BA120E52DBA078500BF500C;
 					};
 				};
 			};
@@ -100,12 +152,20 @@
 			projectRoot = "";
 			targets = (
 				6BA120E52DBA078500BF500C /* CofeeOrderShop */,
+				6BA54E132DC12D5800934426 /* CofeeOrderShopE2ETests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6BA120E42DBA078500BF500C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA54E122DC12D5800934426 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +182,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6BA54E102DC12D5800934426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BA54E1B2DC12D5800934426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BA120E52DBA078500BF500C /* CofeeOrderShop */;
+			targetProxy = 6BA54E1A2DC12D5800934426 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6BA120EF2DBA078700BF500C /* Debug */ = {
@@ -302,6 +377,40 @@
 			};
 			name = Release;
 		};
+		6BA54E1C2DC12D5800934426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29725MDWPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moin.CofeeOrderShopE2ETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CofeeOrderShop;
+			};
+			name = Debug;
+		};
+		6BA54E1D2DC12D5800934426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29725MDWPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moin.CofeeOrderShopE2ETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CofeeOrderShop;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -319,6 +428,15 @@
 			buildConfigurations = (
 				6BA120F22DBA078700BF500C /* Debug */,
 				6BA120F32DBA078700BF500C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA54E1E2DC12D5800934426 /* Build configuration list for PBXNativeTarget "CofeeOrderShopE2ETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA54E1C2DC12D5800934426 /* Debug */,
+				6BA54E1D2DC12D5800934426 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
