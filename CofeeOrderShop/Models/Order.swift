@@ -7,6 +7,10 @@
 
 import Foundation
 
+enum CoffeeOrderError: Error {
+    case invalidOrderID
+}
+
 enum CofeeSize: String, CaseIterable, Codable {
     case small =  "Small"
     case medium = "Medium"
